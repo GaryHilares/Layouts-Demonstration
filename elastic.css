@@ -1,0 +1,42 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.column {
+    border-radius: 1.25rem;
+    float: left;
+    margin: 0 3.125rem;
+    width: 23.75rem;
+    padding: 0.625rem;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    clear: both;
+    margin: 46.875rem 0 0 0;
+    padding: 0.625rem;
+}
+
+.left-column {
+    background-color: cyan;
+}
+
+.middle-column {
+    background-color: orange;
+}
+
+.right-column {
+    background-color: green;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 93.75rem;
+}
