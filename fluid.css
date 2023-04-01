@@ -4,37 +4,64 @@ body {
     padding: 0;
 }
 
-h1 {
+.wrapper {
+    margin: 0;
+}
+
+h1,
+.column>h2 {
     text-align: center;
 }
 
+.intro {
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: 0 3.3% 3.3%;
+    width: 93.3%;
+    padding: 10px;
+}
+
+.first-intro {
+    background-color: black;
+    color: white;
+}
+
+.second-intro {
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+}
+
 .column {
+    box-sizing: border-box;
     border-radius: 20px;
     float: left;
-    margin: 3.3%;
-    width: 25.3%;
-    padding: 0.6%;
+    width: 45%;
+    padding: 10px;
+}
+
+.left-column {
+    background-color: black;
+    color: white;
+    margin: 0 1.6% 3.3% 3.3%;
+}
+
+.right-column {
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+    margin: 0 3.3% 3.3% 1.6%;
+}
+
+.logo {
+    width: 26%;
+    height: 26%;
 }
 
 footer {
     color: white;
     background-color: black;
     clear: both;
-    padding: 0.6%;
-}
-
-.left-column {
-    background-color: cyan;
-}
-
-.middle-column {
-    background-color: orange;
-}
-
-.right-column {
-    background-color: green;
-}
-
-.wrapper {
-    margin: 0 auto;
+    margin: 0 0 0 0;
+    padding: 10px;
 }
